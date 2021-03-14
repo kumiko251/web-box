@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font: 14px/26px   "Lucida Bright", "DejaVu Serif", "serif";
+	background-color:#DAC9B9;
+	background-image: url("wallpaper.png");
+	background-position: 60px -15px;
+}
+
+.container {
+	width: 700px;
+	margin: auto;
+	height: auto;
+	background-color:#E8EDDD;
+	border-top: solid 5px #CF5A8C;
+}
+
+.header {
+	padding: 20px;
+	padding-bottom: 0px;
+	line-height:0em;
+}
+
+.title {
+	padding-left: 15px;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: "atomic-age";
+	color:#6B322C;
+}
+
+ ul li{
+	display: inline-block;
+	 font-size: 21px;
+	 margin-right: 7px;
+}
+
+a{
+	text-decoration: none;
+	color:#E91E4C;
+	padding-right: 7px;
+	font-family: "averia-sans-libre";
+}
+
+.image{
+	height: 200px;
+	background-image: url("beach.png");
+	background-size: cover;
+	background-position: 0 -30px;
+	border-bottom: 5px solid #CF5A8C;
+	border-top: 5px solid #5AC8CF;	
+}
+
+
+.content{
+	padding: 20px;
+	padding-top: 5px;
+	margin-top: 2px;
+}
+
+.content h2 {
+	font-size: 26px;
+	font-family: "atomic-age";
+	font-weight: bold;
+}
+
+.writer {
+	font-size: 16px;
+}
+
+br {
+  display: block;
+  margin-top: 2px;
+	line-height: 7px;
+}
+
+.a {
+	margin-top: 3px;
+  margin-bottom: 0px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.footer {
+	padding: 1px;
+	background-color: #5AC8CF;
+	color: #0D0631;
+	text-align: center;
+}
